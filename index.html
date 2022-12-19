@@ -8,22 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="catFacts">
         <header>
-            <h1>Get your friendly random facts</h1>
+            <h1>Get your random cat facts</h1>
+            <span>Information for this has been retreived from <a href="https://github.com/wh-iterabb-it/meowfacts">meowfacts.herokuapp.com</a></span>
         </header>
         
-
-        
-
         <div>
-            <p>Kindly enter the name of a fruit to retrive its nutritional value</p>
-            <div id="fruit_info" >
-                <label for="fruitInfo">Insert fruit: </label>
-                <input id="fact" name="fact" type="number" placeholder="the number of fact you would like to retriver">
-
-                <button type="button" id="getFruit">get fruit information</button>
+            <h3>Kindly enter the number of cat facts you would like to retreive today</h3>
+            <div id="fact_info" >
+                <label for="factInfo">Input number of facts you would like to retreive: </label>
+                <input id="fact" name="fact" type="number" placeholder="the number of facts">
+                <br>
+                <button type="button" id="getFact">get fruit information</button>
             </div>
+
+        </div>
+
+        <div class="results">
+            <p></p>
+            <br>
         </div>
     </div>
 
